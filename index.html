@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aventura</title>
+        <link rel="stylesheet" href="https://unpkg.com/papercss@1.9.2/dist/paper.min.css"/>
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+<body>
+    <div>
+        <header>
+            <h1 id="uno">Aventura Grafica</h1>
+            <a href="https://www.disneyplus.com/es-ar/series/miraculous-tales-of-ladybug-cat-noir/1CjTiHEJbLRC">
+                <img src="imagenestp3/fondo.png" class="float-ri">
+            </a>
+        </header>
+
+        <div class="row flex-spaces child-borders child-shadows-hover">
+            <div class="sm-3 col"><a style="background-image: none;"  href="#aventura">Aventura y Juego</a></div>
+        </div>
+
+        
+
+        <div class="row">
+            <div class="sm-4 col">
+                    <div class="card" style="width: 16rem;">
+                        <div class="card-body">
+                          <h4 class="card-title">Tematica</h4>
+                          <h5 class="card-subtitle">Miraculous Ladybug</h5>
+                          <p class="card-text">La temática fue inspirada en la serie animada Miraculous: las aventuras de Ladybug en el capítulo de la temporada 1, episodio 24, titulado 'Volpina'. Es una serie francesa que sigue las aventuras de dos adolescentes, Marinette Dupain-Cheng y Adrien Agreste, quienes se transforman en los superhéroes Ladybug y Cat Noir para proteger París de los villanos. En este episodio en particular, se introduce al personaje de Lila Rossi, quien se convierte en la superhéroe Volpina, utilizando los poderes del kwami Zoe para manipular la ilusión y crear trampas engañosas. La historia muestra cómo la identidad de un héroe puede ser puesta en duda y cómo las relaciones entre los personajes se complican a medida que surgen nuevos conflictos.</p>
+                          <a class="card-link" style="background-image: none;" href="https://miraculousladybug.fandom.com/es/wiki/Volpina">Wiki del Episodio</a>
+                        </div>
+                      </div>
+            </div>
+            <div class="sm-4 col">
+                <div class="card" style="width: 16rem;">
+                    <div class="card-body">
+                        <h4 class="card-title">Integrates</h4>
+                        <p class="card-text">- Adrover Yohana</p>
+                        <p class="card-text">- Maria Cadenas </p>
+                    </div>
+                </div>
+            </div>
+            <div class="sm-4 col">
+                <div class="card" style="width: 16rem;">
+                    <div class="card-body">
+                      <h4 class="card-title">Proceso</h4>
+                      <p class="card-text">El proceso de creación de nuestra aventura gráfica comenzó con la búsqueda de una serie animada en común y la selección de un capítulo atractivo para inspirar la trama. Después de considerar varias opciones, decidimos centrarnos en Miraculous: las aventuras de Ladybug, una serie que combina acción, aventura y relaciones interpersonales, lo que la hace ideal para una experiencia interactiva. Elegimos el episodio 24 de la temporada 1, titulado 'Volpina', debido a su intrigante desarrollo de personajes y la introducción de un nuevo villano, Lila Rossi, quien se convierte en la heroína Volpina. Este capítulo destaca por su enfoque en el engaño y la manipulación de ilusiones, elementos que queríamos explorar en el juego. A través de este episodio, vimos una oportunidad para crear una narrativa emocionante y dinámica, llena de sorpresas, decisiones que afectan el curso de la historia y personajes con motivaciones complejas.</p>
+
+                  </div>
+            </div>
+        </div>
+        
+        <div class="row flex-spaces tabs">
+            <input id="tab1" type="radio" name="tabs" checked>
+            <label for="tab1">Aventura</label>
+          
+            <input id="tab2" type="radio" name="tabs">
+            <label for="tab2">Juego</label>
+          
+            <input id="tab3" type="radio" name="tabs">
+            <label for="tab3">Otros</label>
+          
+            
+          
+            <div class="content" id="content1">
+                <div class="interaccion"></div>
+                <h3 id="aventura">Aventura</h3>
+                <iframe src="tpfinalparte1/index.html" frameborder="0" width="640" height="480"></iframe>
+            </div>
+            <div class="content" id="content2">
+                <h3 id="juego">Juego</h3>
+                <iframe src="tpfinalparte2/index.html" frameborder="0" width="640" height="480"></iframe>
+            </div>
+            <div class="content" id="content3">
+                <h3 id="diagrama">Diagrama</h3>
+                <img src="imagenestp3/Diagrama.png" alt="Diagrama">
+            </div>
+            
+          </div>
+
+        
+    </div>
+</body>
+</html>
